@@ -1,6 +1,6 @@
 GiToDo is a small extension that will show you all lines with uncommitted changes that contain a TODO.
 
-![Screenshot of GiToDo](./media/screenshot.png)
+<img src="./media/screenshot.png" alt="Screenshot of GiToDo" width="300">
 
 ## Requirements
 
