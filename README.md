@@ -1,5 +1,3 @@
-# gitodo README
-
 GiToDo is a small extension that will show you all lines with uncomitted changes that contain a TODO.
 
 ![Screenshot of GiToDo](./media/screenshot.png)
@@ -17,8 +15,6 @@ Currently, no settings are available.
 No known issues.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
