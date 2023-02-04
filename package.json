@@ -1,6 +1,10 @@
 {
   "name": "gitodo",
   "displayName": "GiToDo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markusa380/gitodo"
+  },
   "description": "Show a list of all uncomitted TODOs",
   "publisher": "markusa380",
   "author": {
