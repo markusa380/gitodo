@@ -16,6 +16,10 @@ No known issues.
 
 ## Release Notes
 
+### 0.0.3
+
+- Fix oversized image in README
+
 ### 0.0.2
 
 - Fix spelling
