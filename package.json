@@ -44,8 +44,9 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "format": "npx prettier --write .",
+    "check-format": "npx prettier --check .",
     "lint": "eslint src --ext ts",
-    "ci": "npm ci && npm run format && npm run compile && npm run lint"
+    "ci": "npm ci && npm run check-format && npm run compile && npm run lint"
   },
   "devDependencies": {
     "@types/glob": "^8.0.1",
