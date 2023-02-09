@@ -12,7 +12,7 @@
     "email": "markusappel@hotmail.de"
   },
   "icon": "media/icon.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -43,8 +43,10 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts"
+    "format": "npx prettier --write .",
+    "check-format": "npx prettier --check .",
+    "lint": "eslint src --ext ts",
+    "ci": "npm ci && npm run check-format && npm run compile && npm run lint"
   },
   "devDependencies": {
     "@types/glob": "^8.0.1",
@@ -57,6 +59,7 @@
     "eslint": "^8.33.0",
     "glob": "^8.1.0",
     "mocha": "^10.1.0",
+    "prettier": "2.8.4",
     "typescript": "^4.9.4"
   }
 }
