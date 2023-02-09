@@ -13,21 +13,3 @@ Currently, no settings are available.
 ## Known Issues
 
 No known issues.
-
-## Release Notes
-
-### 0.0.4
-
-- Added a cute owl icon
-
-### 0.0.3
-
-- Fix oversized image in README
-
-### 0.0.2
-
-- Fix spelling
-
-### 0.0.1
-
-Initial release.
